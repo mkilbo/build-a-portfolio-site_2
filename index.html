@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Melissa Kilbourne Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<main class="container">
+			<header class=" row top">
+				<div class="col-md-6">
+					<img class="img-responsive" src="images/tree.png" alt="tree logo">
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1>Melissa Kilbourne</h1>
+					<h3>Portfolio</h3>
+				</div>
+			</header>
+			<section class="row middle">
+				<div class="col-md-12">
+					<img class="img-responsive" src="images/dandelion.jpg" alt="flower hero">
+				</div>
+			</section>
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Featured Work</h2>
+				</div>
+			</div>
+			<section class="row">
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/lights.jpg" alt="lights" data-toggle="modal" data-target="#project1">
+					<h4 class="text-uppercase">Lights</h4>
+					<p><a href="https://github.com/udacity/Lights/">https://github.com/udacity/Lights/</a></p>
+				</div>
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/love.jpg" alt="love" data-toggle="modal" data-target="#project2">
+					<h4 class="text-uppercase">Love</h4>
+					<p><a href="https://github.com/udacity/Love/">https://github.com/udacity/Love/</a></p>
+				</div>
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/books.jpg" alt="books" data-toggle="modal" data-target="#project3">
+					<h4 class="text-uppercase">Books</h4>
+					<p><a href="https://github.com/udacity/Books/">https://github.com/udacity/Books/</a></p>
+				</div>
+			</section>
+		</main>
+		<!-- Modal -->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalproject1" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title text-center" id="myModalproject1">Lights Page</h4>
+					</div>
+					<div class="modal-body text-center">
+						<img class="img-responsive center-block" src="images/lights.jpg" alt="lights">This was my first project in this class. I learned a lot about HTML and CSS.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalproject2" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title text-center" id="myModalproject2">Love Page</h4>
+					</div>
+					<div class="modal-body text-center">
+						<img class="img-responsive center-block" src="images/love.jpg" alt="love">This was my second project in this class. I learned a lot about HTML and CSS.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalproject3" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title text-center" id="myModalproject3">Books Page</h4>
+					</div>
+					<div class="modal-body text-center">
+						<img class="img-responsive center-block" src="images/books.jpg" alt="books">This was my third project in this class. I learned a lot about HTML and CSS.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
